@@ -19,7 +19,7 @@ export class SimpleNgTagsComponent implements OnInit, ControlValueAccessor {
   public tags: any[];
   public onChange: any = Function.prototype; // Trascend the onChange event
   public onTouched: any = Function.prototype; // Trascend the onTouch event
-  private _tag: string = '';
+  public _tag: string = '';
   
   constructor(private elRef:ElementRef) { }
 
